@@ -15,3 +15,8 @@ int query(int idx) {
 	return prefix[idx];
 }
 ```
+# Number Theory
+
+### Postulado de Bertrand
+
+Para cualquier entero $$n > 3$$ existe al menos un primo $$p$$ tal que $$n < p < 2n$$.
