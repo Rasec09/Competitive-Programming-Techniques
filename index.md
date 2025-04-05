@@ -19,4 +19,8 @@ int query(int idx) {
 
 ### Postulado de Bertrand
 
-Para cualquier entero $$n > 3$$ existe al menos un primo $$p$$ tal que $$n < p < 2n$$.
+Para cualquier entero $$n > 3$$, existe al menos un numero primo $$p$$ tal que $$n < p < 2n$$.
+
+### GCD propiedades
+
+- $$gcd(x, y) = gcd(x, y - x)$$ si x < y.
