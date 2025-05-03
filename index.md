@@ -2,7 +2,7 @@
 ```
 void update(int l, int r, int x) {
 	a[l] += x;
-	a[r + 1]--;
+	a[r + 1] -= x;
 }
 
 int query(int idx) {
